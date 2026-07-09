@@ -35,7 +35,7 @@ async function init() {
 // Load mock data from JSON file
 async function loadMockData() {
     try {
-        const response = await fetch('data/mock-data.json');
+        const response = await fetch('mock-data.json');
         mockData = await response.json();
     } catch (error) {
         console.error('Error loading mock data:', error);
