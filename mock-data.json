@@ -1,0 +1,210 @@
+{
+  "familyProfiles": {
+    "123": {
+      "name": "Sarah",
+      "familySize": 4,
+      "ages": [8, 12],
+      "lastTrip": {
+        "destination": "Crete",
+        "season": "summer",
+        "year": 2025,
+        "feedback": "spacious rooms, beach view"
+      },
+      "budget": "€3000-4000",
+      "nextWindow": "Christmas 2025"
+    }
+  },
+  "agentResponses": {
+    "initial": {
+      "message": "We found these destinations aligned with Christmas holidays that give you a similar vibe to Crete (spacious rooms, beach view nearby), but this time according to your feedback, everything is walking distance. Is this aligned with what you need to relax for Christmas?",
+      "homes": [1, 2, 3]
+    },
+    "cheaper": {
+      "message": "Got it, let's find you something that doesn't stretch the budget. These options are 30-40% less than Crete but keep the space and amenities your family loved.",
+      "homes": [4, 5, 6]
+    },
+    "nature": {
+      "message": "Love it, nature it is. These destinations offer lush surroundings, hiking nearby, and that peaceful vibe, while still keeping the comfort your family needs.",
+      "homes": [7, 8, 9]
+    },
+    "pool": {
+      "message": "Indoor pool sounds perfect for a rainy holiday. These homes all feature covered pools, so the kids can play regardless of weather.",
+      "homes": [10, 11, 12]
+    },
+    "sights": {
+      "message": "Exploring on foot, excellent. These destinations have must-see sights within walking distance, plus the spacious homes your family loves.",
+      "homes": [13, 14, 15]
+    },
+    "default": {
+      "message": "Got it, let me factor that in. Here are a few homes that still keep the spacious rooms and beach view your family loved, adjusted for what you just told me.",
+      "homes": [2, 6, 9]
+    }
+  },
+  "homes": {
+    "1": {
+      "id": 1,
+      "name": "Villa Sunset Crete",
+      "location": "Chania, Crete",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=500&h=400&fit=crop",
+      "amenities": ["Pool", "WiFi", "Spacious rooms"],
+      "allAmenities": ["Pool", "WiFi", "Spacious rooms", "Kitchen", "Air conditioning", "Parking", "Garden view", "Hot tub"],
+      "rating": 4.8,
+      "availableDates": "Dec 20 - Jan 5"
+    },
+    "2": {
+      "id": 2,
+      "name": "Aegean Blue House",
+      "location": "Santorini, Greece",
+      "price": 220,
+      "image": "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=500&h=400&fit=crop",
+      "amenities": ["Sea view", "Outdoor terrace", "Modern kitchen"],
+      "allAmenities": ["Sea view", "Outdoor terrace", "Modern kitchen", "WiFi", "Air conditioning", "Parking", "Private beach access", "Concierge"],
+      "rating": 4.9,
+      "availableDates": "Dec 18 - Jan 10"
+    },
+    "3": {
+      "id": 3,
+      "name": "Peaceful Retreat Paros",
+      "location": "Paros, Greece",
+      "price": 165,
+      "image": "https://images.unsplash.com/photo-1570129477492-45a003537e1f?w=500&h=400&fit=crop",
+      "amenities": ["Pool", "Quiet location", "Family-friendly"],
+      "allAmenities": ["Pool", "Quiet location", "Family-friendly", "WiFi", "Kitchen", "Garden", "Playground", "Parking"],
+      "rating": 4.7,
+      "availableDates": "Dec 19 - Jan 8"
+    },
+    "4": {
+      "id": 4,
+      "name": "Budget Blue Crete",
+      "location": "Rethymno, Crete",
+      "price": 95,
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=500&h=400&fit=crop",
+      "amenities": ["Pool", "Central location", "Cozy rooms"],
+      "allAmenities": ["Pool", "Central location", "Cozy rooms", "WiFi", "Restaurant", "Parking", "Family rooms"],
+      "rating": 4.5,
+      "availableDates": "Dec 20 - Jan 3"
+    },
+    "5": {
+      "id": 5,
+      "name": "Affordable Comfort Naxos",
+      "location": "Naxos, Greece",
+      "price": 110,
+      "image": "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=500&h=400&fit=crop",
+      "amenities": ["Pool", "Good value", "Spacious rooms"],
+      "allAmenities": ["Pool", "Good value", "Spacious rooms", "WiFi", "Air conditioning", "Kitchen", "Garden"],
+      "rating": 4.6,
+      "availableDates": "Dec 19 - Jan 5"
+    },
+    "6": {
+      "id": 6,
+      "name": "Value Villa Mykonos",
+      "location": "Mykonos, Greece",
+      "price": 125,
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=500&h=400&fit=crop",
+      "amenities": ["Pool", "Walking distance to town", "Modern"],
+      "allAmenities": ["Pool", "Walking distance to town", "Modern decor", "WiFi", "Air conditioning", "Parking"],
+      "rating": 4.4,
+      "availableDates": "Dec 21 - Jan 4"
+    },
+    "7": {
+      "id": 7,
+      "name": "Mountain Haven Pelion",
+      "location": "Pelion Mountains, Greece",
+      "price": 140,
+      "image": "https://images.unsplash.com/photo-1518602164578-cd0074062767?w=500&h=400&fit=crop",
+      "amenities": ["Hiking trails", "Quiet", "Forest views"],
+      "allAmenities": ["Hiking trails", "Quiet", "Forest views", "Fireplace", "WiFi", "Kitchen", "Garden"],
+      "rating": 4.8,
+      "availableDates": "Dec 19 - Jan 6"
+    },
+    "8": {
+      "id": 8,
+      "name": "Alpine Chalet Parnassus",
+      "location": "Parnassus Mountains, Greece",
+      "price": 155,
+      "image": "https://images.unsplash.com/photo-1476611317561-60117649dd94?w=500&h=400&fit=crop",
+      "amenities": ["Mountain views", "Snow activities", "Cozy fireplace"],
+      "allAmenities": ["Mountain views", "Snow activities", "Cozy fireplace", "Hot tub", "WiFi", "Restaurant", "Sauna"],
+      "rating": 4.7,
+      "availableDates": "Dec 18 - Jan 8"
+    },
+    "9": {
+      "id": 9,
+      "name": "Forest Lodge Trikala",
+      "location": "Trikala, Greece",
+      "price": 130,
+      "image": "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?w=500&h=400&fit=crop",
+      "amenities": ["Nature trails", "Peaceful", "Garden"],
+      "allAmenities": ["Nature trails", "Peaceful", "Garden", "WiFi", "Kitchen", "Hiking maps provided"],
+      "rating": 4.6,
+      "availableDates": "Dec 20 - Jan 5"
+    },
+    "10": {
+      "id": 10,
+      "name": "Indoor Pool Paradise Crete",
+      "location": "Heraklion, Crete",
+      "price": 175,
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=500&h=400&fit=crop",
+      "amenities": ["Covered pool", "Water slide", "Family-friendly"],
+      "allAmenities": ["Covered pool", "Water slide", "Family-friendly", "WiFi", "Restaurant", "Parking", "Kids club"],
+      "rating": 4.8,
+      "availableDates": "Dec 19 - Jan 7"
+    },
+    "11": {
+      "id": 11,
+      "name": "Aqua Resort Larissa",
+      "location": "Larissa, Greece",
+      "price": 160,
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=500&h=400&fit=crop",
+      "amenities": ["Indoor pool", "Hot tub", "Sauna"],
+      "allAmenities": ["Indoor pool", "Hot tub", "Sauna", "Spa services", "WiFi", "Restaurant", "Kids activities"],
+      "rating": 4.7,
+      "availableDates": "Dec 18 - Jan 6"
+    },
+    "12": {
+      "id": 12,
+      "name": "Splash Haven Thessaloniki",
+      "location": "Thessaloniki, Greece",
+      "price": 145,
+      "image": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=500&h=400&fit=crop",
+      "amenities": ["Heated indoor pool", "Game room", "Cozy"],
+      "allAmenities": ["Heated indoor pool", "Game room", "Cozy rooms", "WiFi", "Restaurant", "Parking"],
+      "rating": 4.6,
+      "availableDates": "Dec 20 - Jan 4"
+    },
+    "13": {
+      "id": 13,
+      "name": "Cultural Hub Athens",
+      "location": "Plaka, Athens",
+      "price": 190,
+      "image": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=500&h=400&fit=crop",
+      "amenities": ["Walking distance to Acropolis", "Historic", "Central"],
+      "allAmenities": ["Walking distance to Acropolis", "Historic", "Central location", "WiFi", "Rooftop terrace", "Museum nearby"],
+      "rating": 4.9,
+      "availableDates": "Dec 19 - Jan 8"
+    },
+    "14": {
+      "id": 14,
+      "name": "Sightseeing Suite Delphi",
+      "location": "Delphi, Greece",
+      "price": 170,
+      "image": "https://images.unsplash.com/photo-1602088113235-229c19758e9c?w=500&h=400&fit=crop",
+      "amenities": ["Near ancient ruins", "Mountain views", "Town center"],
+      "allAmenities": ["Near ancient ruins", "Mountain views", "Town center", "WiFi", "Restaurant", "Heritage site walking tours"],
+      "rating": 4.8,
+      "availableDates": "Dec 20 - Jan 6"
+    },
+    "15": {
+      "id": 15,
+      "name": "Explorer's Corner Rhodes",
+      "location": "Old Town, Rhodes",
+      "price": 155,
+      "image": "https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a?w=500&h=400&fit=crop",
+      "amenities": ["Medieval town", "Beach nearby", "Walking distance to sites"],
+      "allAmenities": ["Medieval town", "Beach nearby", "Walking distance to sites", "WiFi", "Restaurant", "Castle views"],
+      "rating": 4.7,
+      "availableDates": "Dec 21 - Jan 7"
+    }
+  }
+}
