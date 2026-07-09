@@ -151,9 +151,6 @@ function renderCarousel(homeIds) {
     });
 
     chatContainer.appendChild(carouselDiv);
-
-    const mainEl = chatContainer.parentElement;
-    mainEl.scrollTop = mainEl.scrollHeight;
 }
 
 function createHomeCard(home) {
